@@ -2,4 +2,5 @@ image: Visual Studio 2017
 
 on_finish:
   - ps: $blockRdp = $true;
+  - cmd: start firefox
   - ps: .\enable-rdp.ps1
